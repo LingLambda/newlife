@@ -2,11 +2,14 @@ import { Argv, Context, Schema } from 'koishi'
 import 'koishi-plugin-adapter-onebot'
 export const name = 'newlife'
 export const usage = `
+**newlife**  
 此插件可以让bot快速切换身份  
-暂仅支持onebot协议   
-<h2>用法:<h2/>  
-在配置项里添加预设,nickName必填,avatar可使用网络或本地url  
-输入命令:newlife [nickName] 即可快速切换bot角色
+在配置项中添加预设，昵称必填，头像可使用网络或本地url  
+  
+命令:  
+newlife [昵称]    即可快速切换bot角色  
+  
+<small>暂仅支持onebot协议，如遇到不存在setQqAvatar请更新onebot适配器</small>  
 `
 export interface Config {
   presets: Array<{

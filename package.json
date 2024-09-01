@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-newlife",
-  "description": "轻松更换bot昵称头像,重获新生",
-  "version": "0.0.1",
+  "description": "轻松切换bot昵称头像,重获新生",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -13,9 +13,16 @@
     "chatbot",
     "koishi",
     "plugin",
-    "onebot"
+    "onebot",
+    "快速换装",
+    "衣柜",
+    "newlife",
+    "新生"
   ],
   "peerDependencies": {
     "koishi": "^4.0.0"
+  },
+  "dependencies": {
+    "koishi-plugin-adapter-onebot": "^6.7.0"
   }
 }
