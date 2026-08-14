@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-relifeluna",
   "description": "RelifeLuna：为 OneBot 与 Milky 机器人切换身份预设（昵称、头像、个签、寒暄），提供 WebUI 与 ChatLuna 工具",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LingLambda/relifeluna.git"
